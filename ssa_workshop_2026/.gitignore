@@ -1,0 +1,8 @@
+.ipynb_checkpoints
+venv
+.DS_Store
+seismic_data
+.parties
+.template*
+.streams*
+initial_work
