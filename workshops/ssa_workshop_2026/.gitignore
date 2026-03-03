@@ -2,7 +2,9 @@
 venv
 .DS_Store
 seismic_data
+daily_seismic_data
 .parties
 .template*
 .streams*
 initial_work
+successful_downloads.csv
