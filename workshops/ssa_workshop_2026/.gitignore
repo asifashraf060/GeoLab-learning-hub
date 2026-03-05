@@ -16,3 +16,4 @@ streaming_failed.csv
 streaming_successful.csv
 successful_processing.csv
 weekly_imush_processed/
+__pycache__
