@@ -80,7 +80,7 @@ def download_single_station(station, start, end, network, location, channel,
         return (False, None, str(e))
 
 def download_miniseed_parallel(station_rows, *, starttime=None, endtime=None, 
-                     output_dir="./seismic_data", max_workers=5):
+                     output_dir="./seismic_data", max_workers=5, client="IRIS"):
     """
     Download miniseed files from EarthScope's FDSN service in parallel.
     
@@ -148,7 +148,7 @@ def download_miniseed_parallel(station_rows, *, starttime=None, endtime=None,
     
     # Initialize EarthScope FDSN client
     # The client object is thread-safe and can be shared across threads
-    client = Client('IRIS')
+    client = Client(client)
     print(f"Initialized IRIS/EarthScope client")
     print(f"Preparing to download {len(station_data)} stations with {max_workers} parallel workers\n")
     

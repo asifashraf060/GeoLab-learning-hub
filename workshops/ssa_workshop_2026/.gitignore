@@ -4,7 +4,7 @@ venv
 seismic_data
 daily_seismic_data
 .parties
-.template*
+.template_db*
 .streams*
 initial_work
 successful_downloads.csv
@@ -12,8 +12,11 @@ failed_processing.csv
 imush_data/
 processed_data/
 stream_processed_data/
+cross_correlation_data/
 streaming_failed.csv
 streaming_successful.csv
 successful_processing.csv
 weekly_imush_processed/
 __pycache__
+*.mseed
+*.xml
