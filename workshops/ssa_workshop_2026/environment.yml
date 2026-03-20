@@ -1,0 +1,82 @@
+name: ssa_slim
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python==3.12.2
+  # --- Cloud & storage ---
+  - adlfs
+  - awscli
+  - awswrangler
+  - boto3
+  - fsspec
+  - gcsfs
+  - obstore
+  # --- Geospatial ---
+  - cartopy
+  - contextily
+  - dask-geopandas
+  - gdal
+  - geopandas
+  - rasterio
+  - xvec
+  # --- Array / data ---
+  - bottleneck
+  - flox
+  - h5netcdf
+  - h5py
+  - netcdf4
+  - numbagg
+  - numpy<2.4.0
+  - numpy_groupies
+  - pandas
+  - pyarrow
+  - scipy
+  - sparse
+  - xarray
+  - xarrayutils
+  - xrft
+  - zarr
+  # --- Machine learning ---
+  - dascore
+  - dask-ml
+  - scikit-image
+  - scikit-learn
+  - tensorflow
+  - xgboost
+  # --- Visualization ---
+  - datashader
+  - ipympl
+  - panel
+  - seaborn
+  # --- Jupyter & dev tools ---
+  - gh
+  - gh-scoped-creds
+  - git-lfs
+  - google-cloud-sdk
+  - ipykernel
+  - jupyter_contrib_nbextensions
+  - jupyter-panel-proxy
+  - jupyter-resource-usage
+  - jupyterlab_code_formatter
+  - jupyterlab-git
+  - jupyterlab-myst
+  - ruff
+  # --- Geophysics ---
+  - cvxpy
+  - obspy==1.4.2
+  - gmt
+  - pygmt
+  - pip
+  - pip:
+    - earthscope-sdk==1.1.0
+    - earthscope-cli==1.0.0
+    - earthscopestraintools
+    - hypoinvpy
+    - gnss_lib_py
+    - gnssrefl
+    - jupyterlab_jupyterbook_navigation
+    - pynlloc
+    - pyrocko
+    - pyocto
+    - seisbench==0.9.0
