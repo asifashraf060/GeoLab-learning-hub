@@ -3,6 +3,7 @@ channels:
   - nodefaults
 dependencies:
   - python=3.13
+  - tdqm
   # --- Cloud & storage ---
   - awscli
   - awswrangler
