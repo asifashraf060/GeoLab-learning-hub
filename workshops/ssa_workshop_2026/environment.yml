@@ -1,82 +1,36 @@
-name: ssa_slim
 channels:
   - conda-forge
   - nodefaults
 dependencies:
-  - python==3.12.2
+  - python=3.13
   # --- Cloud & storage ---
-  - adlfs
   - awscli
   - awswrangler
   - boto3
-  - fsspec
-  - gcsfs
   - obstore
   # --- Geospatial ---
-  - cartopy
-  - contextily
-  - dask-geopandas
+  - folium
   - gdal
-  - geopandas
-  - rasterio
-  - xvec
   # --- Array / data ---
-  - bottleneck
-  - flox
-  - h5netcdf
-  - h5py
-  - netcdf4
-  - numbagg
-  - numpy<2.4.0
-  - numpy_groupies
+  - numpy
   - pandas
   - pyarrow
-  - scipy
-  - sparse
-  - xarray
-  - xarrayutils
-  - xrft
-  - zarr
   # --- Machine learning ---
-  - dascore
-  - dask-ml
-  - scikit-image
-  - scikit-learn
-  - tensorflow
-  - xgboost
   # --- Visualization ---
-  - datashader
-  - ipympl
-  - panel
-  - seaborn
   # --- Jupyter & dev tools ---
-  - gh
-  - gh-scoped-creds
-  - git-lfs
-  - google-cloud-sdk
   - ipykernel
   - jupyter_contrib_nbextensions
-  - jupyter-panel-proxy
   - jupyter-resource-usage
-  - jupyterlab_code_formatter
+  - jupyter-ruff
   - jupyterlab-git
   - jupyterlab-myst
+  - nb_conda_kernels
   - ruff
   # --- Geophysics ---
-  - cvxpy
-  - obspy==1.4.2
-  - gmt
-  - pygmt
+  - obspy
+  - obsplus
   - pip
   - pip:
     - earthscope-sdk==1.1.0
     - earthscope-cli==1.0.0
-    - earthscopestraintools
-    - hypoinvpy
-    - gnss_lib_py
-    - gnssrefl
-    - jupyterlab_jupyterbook_navigation
-    - pynlloc
-    - pyrocko
-    - pyocto
-    - seisbench==0.9.0
+    - jupyterlab-jupyterbook_navigation
