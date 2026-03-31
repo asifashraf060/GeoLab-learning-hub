@@ -80,7 +80,7 @@ def download_single_station(station, start, end, network, location, channel,
         return (False, None, str(e))
 
 def download_miniseed_parallel(station_rows, *, starttime=None, endtime=None, 
-                     output_dir="./seismic_data", max_workers=5, client=""https://service.earthscope.org""):
+                     output_dir="./seismic_data", max_workers=5, client="https://service.earthscope.org"):
     """
     Download miniseed files from EarthScope's FDSN service in parallel.
     
