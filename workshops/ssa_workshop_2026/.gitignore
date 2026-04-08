@@ -20,3 +20,4 @@ weekly_imush_processed/
 __pycache__
 *.mseed
 *.xml
+5_cross_correlation_original.ipynb
