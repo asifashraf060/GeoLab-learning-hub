@@ -21,3 +21,4 @@ __pycache__
 *.mseed
 *.xml
 5_cross_correlation_original.ipynb
+1_environment_configuration.ipynb
