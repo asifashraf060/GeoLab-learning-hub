@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" schemaVersion="1.2">
-  <Source>IRIS-DMC</Source>
-  <Sender>IRIS-DMC</Sender>
-  <Module>IRIS WEB SERVICE: fdsnws-station | version: 1.1.52</Module>
-  <ModuleURI>http://service.iris.edu/fdsnws/station/1/query?starttime=2018-11-19T11%3A07%3A13.130000&amp;endtime=2018-11-19T11%3A17%3A13.130000&amp;channel=HN%3F&amp;minlatitude=46.0&amp;maxlatitude=48.5&amp;minlongitude=-125.5&amp;maxlongitude=-122.5&amp;level=response</ModuleURI>
-  <Created>2026-06-26T05:18:00.468800Z</Created>
+  <Source>EarthScope</Source>
+  <Sender>EarthScope</Sender>
+  <Module>EarthScope WEB SERVICE: fdsnws-station | version: 1.1.56</Module>
+  <ModuleURI>https://service.earthscope.org/fdsnws/station/1/query?starttime=2018-11-19T11%3A07%3A13.130000&amp;endtime=2018-11-19T11%3A17%3A13.130000&amp;channel=HN%3F&amp;minlatitude=46.0&amp;maxlatitude=48.5&amp;minlongitude=-125.5&amp;maxlongitude=-122.5&amp;level=response</ModuleURI>
+  <Created>2026-07-08T20:32:59.197100Z</Created>
   <Network code="CN" startDate="1975-01-01T00:00:00.000000Z" restrictedStatus="open">
     <Description>Canadian National Seismograph Network (CNSN)</Description>
     <Identifier type="DOI">10.7914/SN/CN
@@ -27444,12 +27444,12 @@ HAITI                  Haiti weak and strong motion 2010-02-11             deplo
       <SelectedNumberChannels>3</SelectedNumberChannels>
       <Channel code="HNE" startDate="2017-03-01T00:00:00.000000Z" endDate="2020-09-22T17:20:46.000000Z" restrictedStatus="open" locationCode="">
         <Comment>
-          <Value>ShakeAlert Upgrade</Value>
+          <Value>[SENSOR::TITAN::479], [LOGGER::TITAN SMA::479]</Value>
           <BeginEffectiveTime>2017-03-01T00:00:00.000000Z</BeginEffectiveTime>
           <EndEffectiveTime>2020-09-22T17:20:46.000000Z</EndEffectiveTime>
         </Comment>
         <Comment>
-          <Value>[SENSOR::TITAN::479], [LOGGER::TITAN SMA::479]</Value>
+          <Value>ShakeAlert Upgrade</Value>
           <BeginEffectiveTime>2017-03-01T00:00:00.000000Z</BeginEffectiveTime>
           <EndEffectiveTime>2020-09-22T17:20:46.000000Z</EndEffectiveTime>
         </Comment>
@@ -27892,12 +27892,12 @@ HAITI                  Haiti weak and strong motion 2010-02-11             deplo
       </Channel>
       <Channel code="HNN" startDate="2017-03-01T00:00:00.000000Z" endDate="2020-09-22T17:20:46.000000Z" restrictedStatus="open" locationCode="">
         <Comment>
-          <Value>ShakeAlert Upgrade</Value>
+          <Value>[SENSOR::TITAN::479], [LOGGER::TITAN SMA::479]</Value>
           <BeginEffectiveTime>2017-03-01T00:00:00.000000Z</BeginEffectiveTime>
           <EndEffectiveTime>2020-09-22T17:20:46.000000Z</EndEffectiveTime>
         </Comment>
         <Comment>
-          <Value>[SENSOR::TITAN::479], [LOGGER::TITAN SMA::479]</Value>
+          <Value>ShakeAlert Upgrade</Value>
           <BeginEffectiveTime>2017-03-01T00:00:00.000000Z</BeginEffectiveTime>
           <EndEffectiveTime>2020-09-22T17:20:46.000000Z</EndEffectiveTime>
         </Comment>
@@ -28804,12 +28804,12 @@ HAITI                  Haiti weak and strong motion 2010-02-11             deplo
       <SelectedNumberChannels>3</SelectedNumberChannels>
       <Channel code="HNE" startDate="2017-11-06T00:00:00.000000Z" endDate="2020-09-30T00:00:00.000000Z" restrictedStatus="open" locationCode="">
         <Comment>
-          <Value>Titan s/n 537 DEAD</Value>
+          <Value>[LOGGER::TITAN SMA::514], [SENSOR::TITAN::514]</Value>
           <BeginEffectiveTime>2017-11-06T00:00:00.000000Z</BeginEffectiveTime>
           <EndEffectiveTime>2020-09-30T00:00:00.000000Z</EndEffectiveTime>
         </Comment>
         <Comment>
-          <Value>[LOGGER::TITAN SMA::514], [SENSOR::TITAN::514]</Value>
+          <Value>Titan s/n 537 DEAD</Value>
           <BeginEffectiveTime>2017-11-06T00:00:00.000000Z</BeginEffectiveTime>
           <EndEffectiveTime>2020-09-30T00:00:00.000000Z</EndEffectiveTime>
         </Comment>
@@ -29700,12 +29700,12 @@ HAITI                  Haiti weak and strong motion 2010-02-11             deplo
       </Channel>
       <Channel code="HNZ" startDate="2017-11-06T00:00:00.000000Z" endDate="2020-09-30T00:00:00.000000Z" restrictedStatus="open" locationCode="">
         <Comment>
-          <Value>Titan s/n 537 DEAD</Value>
+          <Value>[LOGGER::TITAN SMA::514], [SENSOR::TITAN::514]</Value>
           <BeginEffectiveTime>2017-11-06T00:00:00.000000Z</BeginEffectiveTime>
           <EndEffectiveTime>2020-09-30T00:00:00.000000Z</EndEffectiveTime>
         </Comment>
         <Comment>
-          <Value>[LOGGER::TITAN SMA::514], [SENSOR::TITAN::514]</Value>
+          <Value>Titan s/n 537 DEAD</Value>
           <BeginEffectiveTime>2017-11-06T00:00:00.000000Z</BeginEffectiveTime>
           <EndEffectiveTime>2020-09-30T00:00:00.000000Z</EndEffectiveTime>
         </Comment>
@@ -32766,12 +32766,12 @@ HAITI                  Haiti weak and strong motion 2010-02-11             deplo
       <SelectedNumberChannels>3</SelectedNumberChannels>
       <Channel code="HNE" startDate="2015-09-03T00:00:00.000000Z" endDate="2020-09-30T00:00:00.000000Z" restrictedStatus="open" locationCode="">
         <Comment>
-          <Value>Installation at MKAH</Value>
+          <Value>[SENSOR::TITAN::318], [LOGGER::TITAN SMA::318]</Value>
           <BeginEffectiveTime>2015-09-03T00:00:00.000000Z</BeginEffectiveTime>
           <EndEffectiveTime>2020-09-30T00:00:00.000000Z</EndEffectiveTime>
         </Comment>
         <Comment>
-          <Value>[SENSOR::TITAN::318], [LOGGER::TITAN SMA::318]</Value>
+          <Value>Installation at MKAH</Value>
           <BeginEffectiveTime>2015-09-03T00:00:00.000000Z</BeginEffectiveTime>
           <EndEffectiveTime>2020-09-30T00:00:00.000000Z</EndEffectiveTime>
         </Comment>
@@ -33214,12 +33214,12 @@ HAITI                  Haiti weak and strong motion 2010-02-11             deplo
       </Channel>
       <Channel code="HNN" startDate="2015-09-03T00:00:00.000000Z" endDate="2020-09-30T00:00:00.000000Z" restrictedStatus="open" locationCode="">
         <Comment>
-          <Value>Installation at MKAH</Value>
+          <Value>[SENSOR::TITAN::318], [LOGGER::TITAN SMA::318]</Value>
           <BeginEffectiveTime>2015-09-03T00:00:00.000000Z</BeginEffectiveTime>
           <EndEffectiveTime>2020-09-30T00:00:00.000000Z</EndEffectiveTime>
         </Comment>
         <Comment>
-          <Value>[SENSOR::TITAN::318], [LOGGER::TITAN SMA::318]</Value>
+          <Value>Installation at MKAH</Value>
           <BeginEffectiveTime>2015-09-03T00:00:00.000000Z</BeginEffectiveTime>
           <EndEffectiveTime>2020-09-30T00:00:00.000000Z</EndEffectiveTime>
         </Comment>
@@ -33662,12 +33662,12 @@ HAITI                  Haiti weak and strong motion 2010-02-11             deplo
       </Channel>
       <Channel code="HNZ" startDate="2015-09-03T00:00:00.000000Z" endDate="2020-09-30T00:00:00.000000Z" restrictedStatus="open" locationCode="">
         <Comment>
-          <Value>Installation at MKAH</Value>
+          <Value>[SENSOR::TITAN::318], [LOGGER::TITAN SMA::318]</Value>
           <BeginEffectiveTime>2015-09-03T00:00:00.000000Z</BeginEffectiveTime>
           <EndEffectiveTime>2020-09-30T00:00:00.000000Z</EndEffectiveTime>
         </Comment>
         <Comment>
-          <Value>[SENSOR::TITAN::318], [LOGGER::TITAN SMA::318]</Value>
+          <Value>Installation at MKAH</Value>
           <BeginEffectiveTime>2015-09-03T00:00:00.000000Z</BeginEffectiveTime>
           <EndEffectiveTime>2020-09-30T00:00:00.000000Z</EndEffectiveTime>
         </Comment>
@@ -35427,12 +35427,12 @@ HAITI                  Haiti weak and strong motion 2010-02-11             deplo
       <SelectedNumberChannels>3</SelectedNumberChannels>
       <Channel code="HNE" startDate="2015-03-04T00:00:00.000000Z" endDate="2019-12-13T23:59:00.000000Z" restrictedStatus="open" locationCode="">
         <Comment>
-          <Value>Installed at OCEN</Value>
+          <Value>[SENSOR::TITAN::298], [LOGGER::TITAN SMA::298]</Value>
           <BeginEffectiveTime>2015-03-04T00:00:00.000000Z</BeginEffectiveTime>
           <EndEffectiveTime>2019-12-13T23:59:00.000000Z</EndEffectiveTime>
         </Comment>
         <Comment>
-          <Value>[SENSOR::TITAN::298], [LOGGER::TITAN SMA::298]</Value>
+          <Value>Installed at OCEN</Value>
           <BeginEffectiveTime>2015-03-04T00:00:00.000000Z</BeginEffectiveTime>
           <EndEffectiveTime>2019-12-13T23:59:00.000000Z</EndEffectiveTime>
         </Comment>
@@ -35876,12 +35876,12 @@ HAITI                  Haiti weak and strong motion 2010-02-11             deplo
       </Channel>
       <Channel code="HNN" startDate="2015-03-04T00:00:00.000000Z" endDate="2019-12-13T23:59:00.000000Z" restrictedStatus="open" locationCode="">
         <Comment>
-          <Value>Installed at OCEN</Value>
+          <Value>[SENSOR::TITAN::298], [LOGGER::TITAN SMA::298]</Value>
           <BeginEffectiveTime>2015-03-04T00:00:00.000000Z</BeginEffectiveTime>
           <EndEffectiveTime>2019-12-13T23:59:00.000000Z</EndEffectiveTime>
         </Comment>
         <Comment>
-          <Value>[SENSOR::TITAN::298], [LOGGER::TITAN SMA::298]</Value>
+          <Value>Installed at OCEN</Value>
           <BeginEffectiveTime>2015-03-04T00:00:00.000000Z</BeginEffectiveTime>
           <EndEffectiveTime>2019-12-13T23:59:00.000000Z</EndEffectiveTime>
         </Comment>
@@ -36325,12 +36325,12 @@ HAITI                  Haiti weak and strong motion 2010-02-11             deplo
       </Channel>
       <Channel code="HNZ" startDate="2015-03-04T00:00:00.000000Z" endDate="2019-12-13T23:59:00.000000Z" restrictedStatus="open" locationCode="">
         <Comment>
-          <Value>Installed at OCEN</Value>
+          <Value>[SENSOR::TITAN::298], [LOGGER::TITAN SMA::298]</Value>
           <BeginEffectiveTime>2015-03-04T00:00:00.000000Z</BeginEffectiveTime>
           <EndEffectiveTime>2019-12-13T23:59:00.000000Z</EndEffectiveTime>
         </Comment>
         <Comment>
-          <Value>[SENSOR::TITAN::298], [LOGGER::TITAN SMA::298]</Value>
+          <Value>Installed at OCEN</Value>
           <BeginEffectiveTime>2015-03-04T00:00:00.000000Z</BeginEffectiveTime>
           <EndEffectiveTime>2019-12-13T23:59:00.000000Z</EndEffectiveTime>
         </Comment>
@@ -39392,11 +39392,11 @@ HAITI                  Haiti weak and strong motion 2010-02-11             deplo
       <SelectedNumberChannels>3</SelectedNumberChannels>
       <Channel code="HNE" startDate="2014-12-18T00:00:00.000000Z" restrictedStatus="open" locationCode="01">
         <Comment>
-          <Value>Location code changed</Value>
+          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100766]</Value>
           <BeginEffectiveTime>2014-12-18T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Comment>
-          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100766]</Value>
+          <Value>Location code changed</Value>
           <BeginEffectiveTime>2014-12-18T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Latitude unit="DEGREES">48.10002</Latitude>
@@ -39668,11 +39668,11 @@ HAITI                  Haiti weak and strong motion 2010-02-11             deplo
       </Channel>
       <Channel code="HNN" startDate="2014-12-18T00:00:00.000000Z" restrictedStatus="open" locationCode="01">
         <Comment>
-          <Value>Location code changed</Value>
+          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100766]</Value>
           <BeginEffectiveTime>2014-12-18T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Comment>
-          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100766]</Value>
+          <Value>Location code changed</Value>
           <BeginEffectiveTime>2014-12-18T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Latitude unit="DEGREES">48.10002</Latitude>
@@ -39944,11 +39944,11 @@ HAITI                  Haiti weak and strong motion 2010-02-11             deplo
       </Channel>
       <Channel code="HNZ" startDate="2014-12-18T00:00:00.000000Z" restrictedStatus="open" locationCode="01">
         <Comment>
-          <Value>Location code changed</Value>
+          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100766]</Value>
           <BeginEffectiveTime>2014-12-18T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Comment>
-          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100766]</Value>
+          <Value>Location code changed</Value>
           <BeginEffectiveTime>2014-12-18T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Latitude unit="DEGREES">48.10002</Latitude>
@@ -40235,11 +40235,11 @@ HAITI                  Haiti weak and strong motion 2010-02-11             deplo
       <SelectedNumberChannels>3</SelectedNumberChannels>
       <Channel code="HNE" startDate="2014-12-17T00:00:00.000000Z" restrictedStatus="open" locationCode="01">
         <Comment>
-          <Value>Location code changed</Value>
+          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100091]</Value>
           <BeginEffectiveTime>2014-12-17T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Comment>
-          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100091]</Value>
+          <Value>Location code changed</Value>
           <BeginEffectiveTime>2014-12-17T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Latitude unit="DEGREES">46.71635</Latitude>
@@ -40511,11 +40511,11 @@ HAITI                  Haiti weak and strong motion 2010-02-11             deplo
       </Channel>
       <Channel code="HNN" startDate="2014-12-17T00:00:00.000000Z" restrictedStatus="open" locationCode="01">
         <Comment>
-          <Value>Location code changed</Value>
+          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100091]</Value>
           <BeginEffectiveTime>2014-12-17T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Comment>
-          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100091]</Value>
+          <Value>Location code changed</Value>
           <BeginEffectiveTime>2014-12-17T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Latitude unit="DEGREES">46.71635</Latitude>
@@ -41079,11 +41079,11 @@ HAITI                  Haiti weak and strong motion 2010-02-11             deplo
       <SelectedNumberChannels>3</SelectedNumberChannels>
       <Channel code="HNE" startDate="2014-12-18T00:00:00.000000Z" restrictedStatus="open" locationCode="01">
         <Comment>
-          <Value>Location code changed</Value>
+          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100529]</Value>
           <BeginEffectiveTime>2014-12-18T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Comment>
-          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100529]</Value>
+          <Value>Location code changed</Value>
           <BeginEffectiveTime>2014-12-18T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Latitude unit="DEGREES">47.28638</Latitude>
@@ -41355,11 +41355,11 @@ HAITI                  Haiti weak and strong motion 2010-02-11             deplo
       </Channel>
       <Channel code="HNN" startDate="2014-12-18T00:00:00.000000Z" restrictedStatus="open" locationCode="01">
         <Comment>
-          <Value>Location code changed</Value>
+          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100529]</Value>
           <BeginEffectiveTime>2014-12-18T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Comment>
-          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100529]</Value>
+          <Value>Location code changed</Value>
           <BeginEffectiveTime>2014-12-18T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Latitude unit="DEGREES">47.28638</Latitude>
@@ -41631,11 +41631,11 @@ HAITI                  Haiti weak and strong motion 2010-02-11             deplo
       </Channel>
       <Channel code="HNZ" startDate="2014-12-18T00:00:00.000000Z" restrictedStatus="open" locationCode="01">
         <Comment>
-          <Value>Location code changed</Value>
+          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100529]</Value>
           <BeginEffectiveTime>2014-12-18T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Comment>
-          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100529]</Value>
+          <Value>Location code changed</Value>
           <BeginEffectiveTime>2014-12-18T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Latitude unit="DEGREES">47.28638</Latitude>
@@ -42813,11 +42813,11 @@ HAITI                  Haiti weak and strong motion 2010-02-11             deplo
       <SelectedNumberChannels>3</SelectedNumberChannels>
       <Channel code="HNE" startDate="2014-12-18T00:00:00.000000Z" restrictedStatus="open" locationCode="01">
         <Comment>
-          <Value>Location code changed</Value>
+          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100639]</Value>
           <BeginEffectiveTime>2014-12-18T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Comment>
-          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100639]</Value>
+          <Value>Location code changed</Value>
           <BeginEffectiveTime>2014-12-18T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Latitude unit="DEGREES">47.06092</Latitude>
@@ -43089,11 +43089,11 @@ HAITI                  Haiti weak and strong motion 2010-02-11             deplo
       </Channel>
       <Channel code="HNN" startDate="2014-12-18T00:00:00.000000Z" restrictedStatus="open" locationCode="01">
         <Comment>
-          <Value>Location code changed</Value>
+          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100639]</Value>
           <BeginEffectiveTime>2014-12-18T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Comment>
-          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100639]</Value>
+          <Value>Location code changed</Value>
           <BeginEffectiveTime>2014-12-18T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Latitude unit="DEGREES">47.06092</Latitude>
@@ -43365,11 +43365,11 @@ HAITI                  Haiti weak and strong motion 2010-02-11             deplo
       </Channel>
       <Channel code="HNZ" startDate="2014-12-18T00:00:00.000000Z" restrictedStatus="open" locationCode="01">
         <Comment>
-          <Value>Location code changed</Value>
+          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100639]</Value>
           <BeginEffectiveTime>2014-12-18T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Comment>
-          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100639]</Value>
+          <Value>Location code changed</Value>
           <BeginEffectiveTime>2014-12-18T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Latitude unit="DEGREES">47.06092</Latitude>
@@ -43657,11 +43657,11 @@ HAITI                  Haiti weak and strong motion 2010-02-11             deplo
       <SelectedNumberChannels>3</SelectedNumberChannels>
       <Channel code="HNE" startDate="2014-12-17T00:00:00.000000Z" restrictedStatus="open" locationCode="01">
         <Comment>
-          <Value>Location code changed</Value>
+          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100152]</Value>
           <BeginEffectiveTime>2014-12-17T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Comment>
-          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100152]</Value>
+          <Value>Location code changed</Value>
           <BeginEffectiveTime>2014-12-17T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Latitude unit="DEGREES">47.8086</Latitude>
@@ -43933,11 +43933,11 @@ HAITI                  Haiti weak and strong motion 2010-02-11             deplo
       </Channel>
       <Channel code="HNN" startDate="2014-12-17T00:00:00.000000Z" restrictedStatus="open" locationCode="01">
         <Comment>
-          <Value>Location code changed</Value>
+          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100152]</Value>
           <BeginEffectiveTime>2014-12-17T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Comment>
-          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100152]</Value>
+          <Value>Location code changed</Value>
           <BeginEffectiveTime>2014-12-17T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Latitude unit="DEGREES">47.8086</Latitude>
@@ -44209,11 +44209,11 @@ HAITI                  Haiti weak and strong motion 2010-02-11             deplo
       </Channel>
       <Channel code="HNZ" startDate="2014-12-17T00:00:00.000000Z" restrictedStatus="open" locationCode="01">
         <Comment>
-          <Value>Location code changed</Value>
+          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100152]</Value>
           <BeginEffectiveTime>2014-12-17T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Comment>
-          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100152]</Value>
+          <Value>Location code changed</Value>
           <BeginEffectiveTime>2014-12-17T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Latitude unit="DEGREES">47.8086</Latitude>
@@ -45295,11 +45295,11 @@ HAITI                  Haiti weak and strong motion 2010-02-11             deplo
       <SelectedNumberChannels>3</SelectedNumberChannels>
       <Channel code="HNE" startDate="2014-12-18T00:00:00.000000Z" restrictedStatus="open" locationCode="01">
         <Comment>
-          <Value>Location code changed</Value>
+          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100641]</Value>
           <BeginEffectiveTime>2014-12-18T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Comment>
-          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100641]</Value>
+          <Value>Location code changed</Value>
           <BeginEffectiveTime>2014-12-18T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Latitude unit="DEGREES">47.21344</Latitude>
@@ -45571,11 +45571,11 @@ HAITI                  Haiti weak and strong motion 2010-02-11             deplo
       </Channel>
       <Channel code="HNN" startDate="2014-12-18T00:00:00.000000Z" restrictedStatus="open" locationCode="01">
         <Comment>
-          <Value>Location code changed</Value>
+          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100641]</Value>
           <BeginEffectiveTime>2014-12-18T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Comment>
-          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100641]</Value>
+          <Value>Location code changed</Value>
           <BeginEffectiveTime>2014-12-18T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Latitude unit="DEGREES">47.21344</Latitude>
@@ -45847,11 +45847,11 @@ HAITI                  Haiti weak and strong motion 2010-02-11             deplo
       </Channel>
       <Channel code="HNZ" startDate="2014-12-18T00:00:00.000000Z" restrictedStatus="open" locationCode="01">
         <Comment>
-          <Value>Location code changed</Value>
+          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100641]</Value>
           <BeginEffectiveTime>2014-12-18T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Comment>
-          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100641]</Value>
+          <Value>Location code changed</Value>
           <BeginEffectiveTime>2014-12-18T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Latitude unit="DEGREES">47.21344</Latitude>
@@ -46139,11 +46139,11 @@ HAITI                  Haiti weak and strong motion 2010-02-11             deplo
       <SelectedNumberChannels>3</SelectedNumberChannels>
       <Channel code="HNE" startDate="2014-12-18T00:00:00.000000Z" restrictedStatus="open" locationCode="01">
         <Comment>
-          <Value>Location code changed</Value>
+          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100406]</Value>
           <BeginEffectiveTime>2014-12-18T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Comment>
-          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100406]</Value>
+          <Value>Location code changed</Value>
           <BeginEffectiveTime>2014-12-18T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Latitude unit="DEGREES">47.28922</Latitude>
@@ -46416,11 +46416,11 @@ HAITI                  Haiti weak and strong motion 2010-02-11             deplo
       </Channel>
       <Channel code="HNN" startDate="2014-12-18T00:00:00.000000Z" restrictedStatus="open" locationCode="01">
         <Comment>
-          <Value>Location code changed</Value>
+          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100406]</Value>
           <BeginEffectiveTime>2014-12-18T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Comment>
-          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100406]</Value>
+          <Value>Location code changed</Value>
           <BeginEffectiveTime>2014-12-18T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Latitude unit="DEGREES">47.28922</Latitude>
@@ -46693,11 +46693,11 @@ HAITI                  Haiti weak and strong motion 2010-02-11             deplo
       </Channel>
       <Channel code="HNZ" startDate="2014-12-18T00:00:00.000000Z" restrictedStatus="open" locationCode="01">
         <Comment>
-          <Value>Location code changed</Value>
+          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100406]</Value>
           <BeginEffectiveTime>2014-12-18T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Comment>
-          <Value>Change Data Stream configuration only (e.g. to rename channels) [LOGGER::GSR-IA18-NETQUAKE::100406]</Value>
+          <Value>Location code changed</Value>
           <BeginEffectiveTime>2014-12-18T00:00:00.000000Z</BeginEffectiveTime>
         </Comment>
         <Latitude unit="DEGREES">47.28922</Latitude>

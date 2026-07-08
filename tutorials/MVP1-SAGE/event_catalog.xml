@@ -2,7 +2,7 @@
 <q:quakeml xmlns="http://quakeml.org/xmlns/bed/1.2" xmlns:anss="http://anss.org/xmlns/event/0.1" xmlns:catalog="http://anss.org/xmlns/catalog/0.1" xmlns:q="http://quakeml.org/xmlns/quakeml/1.2">
   <eventParameters publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?starttime=2000-01-01T000000.000000&amp;endtime=2025-12-31T000000.000000&amp;minlatitude=46.0&amp;maxlatitude=48.5&amp;minlongitude=-125.5&amp;maxlongitude=-122.5&amp;minmagnitude=4.0">
     <creationInfo>
-      <creationTime>2026-06-25T21:37:44.000000Z</creationTime>
+      <creationTime>2026-07-08T20:32:51.000000Z</creationTime>
     </creationInfo>
     <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw61977871&amp;format=quakeml" catalog:datasource="uw" catalog:eventsource="uw" catalog:eventid="61977871">
       <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/uw61977871/uw/1703445058650</preferredOriginID>
